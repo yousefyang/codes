@@ -16,7 +16,7 @@ validcheck<-nsum.internal.validation(survey.data = dat, known.popns = kp.vec, to
 validcheck$results
 validcheck$plot   #liu is an inaccurate estimate. This reproduces the first graph in figure 1
 
-#if exclude liu:
+#if excluding liu:
 surname<-c("zhu","wu","sun","yang","zhou","zheng")
 totpu<-c(66,88,64,94,79,39)
 knownpop<-data.frame(surname, totpu)
